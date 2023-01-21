@@ -78,6 +78,13 @@ body {
 
 }
 
+@mixin stripe {
+    background-color: white;
+    width: 292px;
+    height: 2px;
+    margin: 0px auto;
+}
+
 .header-container {
     
     background: url('./src/img/main_bg.png') center center/cover no-repeat;
@@ -153,13 +160,59 @@ h2 {
 }
 
 .header-stripes {
-    background-color: white;
-    width: 292px;
-    height: 2px;
-    margin: 0px auto;
+    @include stripe;
 }
 
 .header_h1-div {
     display: flex;
     align-items: center;
+}
+
+.course-exp-container {
+    height: 607;
+    background-color: #EFEFEF;
+    padding: 50px;
+    text-align: center;
+}
+
+.exp-course-flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.exp-flex-item {
+    width: 250px;
+}
+
+.course-exp-stripe {
+    @include stripe;
+    background-color: #F9BF3B;
+    width: 220px;
+    height: 7px;
+}
+
+.course-exp-container p {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+
+    text-transform: uppercase;
+
+    color: #252525;
+}
+
+.course-exp-container .exp-course-flex p{
+
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+
+    color: #4A4A4A;
+}
+
+.course-exp-container .course-exp-sum {
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 20px;
+    color: #4A4A4A;
 }
