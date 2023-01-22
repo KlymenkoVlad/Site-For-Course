@@ -314,10 +314,111 @@ h2 {
     font-weight: 400;
     font-size: 30px;
     line-height: 30px;
-
     text-align: center;
     text-transform: uppercase;
 
     color: #EFEFEF;
 }
 
+.present-container {
+    text-align: center;
+    height: 431px;
+    position: relative;
+    background-color: #efefef;
+
+    p {
+        margin-bottom: 20px;
+    }
+
+    img {
+        margin-bottom: 20px;
+    }
+
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.first-container {
+    text-align: center;
+    height: 491px;
+    position: relative;
+    padding: 15px 0px 0px;
+
+    p {
+        margin-bottom: 20px;
+    }
+
+    img {
+        margin-bottom: 10px;
+    }
+
+    p:nth-of-type(1) {
+    
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+
+    text-transform: uppercase;
+
+    color: #252525;
+
+    }
+
+    p:nth-of-type(2) {
+    
+        font-weight: 900;
+        font-size: 36px;
+        line-height: 36px;
+
+        text-align: center;
+        text-transform: uppercase;
+
+        color: #299CBD;
+    
+    }
+
+    p:nth-of-type(3) {
+    
+        font-style: normal;
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 20px;
+        /* identical to box height, or 87% */
+
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        color: #4A4A4A;
+    
+    }
+}
+
+footer {
+    height: 169px;
+    background: #1a1a1a;
+    text-align: center;
+    position: relative;
+    display: flex;
+
+    a {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 21px;
+        text-align: center;
+        text-decoration-line: none;
+
+        color: #888888;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+}
