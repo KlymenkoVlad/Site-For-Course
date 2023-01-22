@@ -269,3 +269,55 @@ h2 {
     left: 140px;
     top: 50px;
 }
+
+//-------------------------------------------
+
+.after-container {
+    height: 447px;
+    background: url('./src/img/second_bg.jpg') center center/cover no-repeat;
+    text-align: center;
+    padding: 60px 0px;
+    
+}
+
+
+.circle {
+    height: 118px;
+    width: 118px;
+    border-radius: 100%;
+    background: #B4E2FF;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.after-flex-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    padding: 0 50px;
+}
+
+.after-container .after-flex-item p {
+    width: 200px;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+
+    color: #EFEFEF;
+ 
+}
+
+.after-container p {
+
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #EFEFEF;
+}
+
