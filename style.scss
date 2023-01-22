@@ -216,3 +216,56 @@ h2 {
     line-height: 20px;
     color: #4A4A4A;
 }
+
+//---------------------------------------------
+
+.explain-container {
+    height: 547px;
+}
+
+.explain-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+}
+
+.explain-flex-item  p {
+    text-align: left;
+    padding: 0px;
+    width: 750px;
+
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 27px;
+
+
+    color: #4A4A4A;
+}
+
+.explain-flex-item  p span {
+
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 27px;
+
+    color: #4A4A4A;
+}
+
+.explain-flex-item  h3 {
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 30px;
+
+    text-transform: uppercase;
+
+    color: #299CBD;
+    
+}
+
+.explain-flex-item img {
+    position: relative;
+    z-index: -1;
+    left: 140px;
+    top: 50px;
+}
